@@ -1,7 +1,7 @@
 import { Color, Rectangle, Sprite, SpriteSheet, TileMap } from "excalibur";
 export const errorTile = new Rectangle({ width: 16, height: 16, color: Color.fromRGB(250, 0, 0, 1) });
 
-// setting up neighbor offsets indexes
+// setting up neighbor offsets indexes /
 const neighborOffsets = [
   [1, 1],
   [0, 1],
